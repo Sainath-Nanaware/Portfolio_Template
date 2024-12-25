@@ -10,9 +10,23 @@
     --primary-bg-color:rgb(233, 235, 236);
     --primary-title-color:#3D3D3D;
     --primary-sub-title-color:#575757;
+    --primary-download-btn-color: #3D3D3D;
     --primary-download-bt-bg:#FBD144;
     --primary-tabs-bg:#FFFFFF;
+    --primary-themButton-bg:#ffffff;
+    --primary-tabs-btn-color:#3D3D3D;
 }
+:root.dark{
+    --primary-bg-color: rgb(12,21,29);
+    --primary-themButton-bg: #171F26;
+    --primary-title-color: #F1F2F4;
+    --primary-sub-title-color: #A3ABB2;
+    --primary-tabs-bg: #171F26;
+    --primary-download-btn-color: #3D3D3D;
+    --primary-tabs-btn-color: #575757;
+
+}
+
 body{
     /* border: 1px solid red; */
     background-color: var(--primary-bg-color);
@@ -162,10 +176,11 @@ ul{
         text-align: center;
         text-underline-position: from-font;
         text-decoration-skip-ink: none;
-        color: var(--primary-sub-title-color);
+        color: var(--primary-download-btn-color);
 }
 #btn-contact-me{
-    background-color:var(--primary-tabs-bg)
+    background-color:var(--primary-tabs-bg);
+    color:var(--primary-tabs-btn-color);
 }
 
 /* End-Profile buttons container */
