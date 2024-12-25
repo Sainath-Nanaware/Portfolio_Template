@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 :root{
@@ -23,7 +23,7 @@ body{
 }
 header{
     margin-top: 33px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,7 +36,7 @@ header{
 /* profile-information part */
 .profile-info{
     margin-top: 60px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 631px;
     height: 215px;
     display: flex;
@@ -44,7 +44,7 @@ header{
     align-items: center;
 }
 .pi-lhs{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 215px;
     height: 215px;
     display: flex;
@@ -68,7 +68,7 @@ header{
         object-fit:contain;
 }
 .pi-rhs {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 156px;
     width: 372px;
 }
@@ -101,7 +101,7 @@ ul{
 /* End-profile-information part */
 /* frofile facts */
 .profile-facts{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 634px;
     height: 142px;
     display: flex;
@@ -175,7 +175,7 @@ ul{
     border-radius: 20px;
     margin-top: 60px;
     width: 760px;
-    height:132px;
+    height:110px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -215,16 +215,36 @@ ul{
         border-radius: 20px;
        display: grid;
        grid-template-columns:repeat(2,1fr);
-       grid-column-gap: 10px;
-       grid-row-gap: 35px;
+       grid-column-gap: 20px;
+       grid-row-gap: 10px;
        grid-template-rows:repeat(3,1fr);
 }
 .Tabs-content img{
+  
     width: 362px;
         height: 226px;
         left: 395px;
         gap: 0px;
         border-radius: 15px;
-        opacity: 0px;
+        object-fit:cover;
 }
+
 /* End-Tabs Content */
+footer{
+    /* border: 1px solid rgb(46, 144, 193); */
+    margin: 50px 0px;
+    width: 463px;
+        height: 33px;
+    
+}
+footer p{
+    color: var(--primary-sub-title-color);
+    width: 34vw;
+font-family: Poppins;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 33px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
